@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(120, 122, 123, 0.285);
+    font-family: Courier, monospace;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#display {
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 40px;
+    border: 20px solid white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    box-shadow: 5px 10px 8px rgba(62, 60, 60, 0.6);
+    word-break: break-word; 
+}
+
+#buttons {
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 5px 10px 8px rgba(62, 60, 60, 0.6);
+    
+}
+
+button {
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20%;
+    font-family: Courier, monospace;
+}
+
+.delete {
+    height: 100px;
+    position: absolute;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#fifthWrapper .number {
+    width: 170px;
+}
+
+.delete, .equal, #thirdWrapper .operator, #fourthWrapper .operator {
+    background-color: rgb(60, 154, 255);
+    color: white;
+}
